@@ -57,7 +57,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     [],
-    name='adb_enabler',
+    name='mbc2drg',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -70,5 +70,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['resources/icon1.ico'],
+    icon=['icon.ico'],
 )
